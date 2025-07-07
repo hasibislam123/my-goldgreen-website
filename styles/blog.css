@@ -168,11 +168,17 @@ background-color: antiquewhite;
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+
+.box-content:hover{
+  background-color: red;
+  color: darkslategrey;
+}
 .box-content {
   border-radius: 5px;
   margin-left: 1rem;
   margin-right: 1rem;
   background-color: #80b918;
+  box-shadow: 10px 10px 10px gray;
 }
 .box-content p {
   color: #eeef20;
